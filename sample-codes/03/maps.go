@@ -14,5 +14,10 @@ func main() {
 	delete(vertices, "square")
 	fmt.Println(vertices)
 
+	// get value by key
 	fmt.Println(vertices["triangle"])
+
+	// check if key is present in map
+	_, is_val_present := vertices["triangle"]
+	fmt.Println(is_val_present) // prints true or false
 }
