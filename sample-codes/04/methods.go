@@ -20,9 +20,13 @@ type User struct {
 	FirstName, LastName string
 }
 
-// create a method with value type as receiver
+// create methods (area & perimeter) with value type as receiver
 func (r rect) area() int {
 	return r.width * r.height
+}
+
+func (r rect) perimeter() int {
+	return (2*r.width) + (2*r.height)
 }
 
 func (u User) Greeting() string {
@@ -32,7 +36,7 @@ func (u User) Greeting() string {
 func main() {
 	// call method
 	r := rect{width: 10, height: 5}
-	fmt.Println("area:", r.area())
+	fmt.Println("area:", r.area(), "perimeter:", r.perimeter())
 
 	u := User{"Matt", "Aimonetti"}
 	fmt.Println(u.Greeting())
