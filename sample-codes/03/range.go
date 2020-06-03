@@ -1,5 +1,8 @@
 /*
-Range: iterate over each element of an array.
+Range: 
+Iterates over each element of a slice or map. When ranging over a slice, 
+two values are returned for each iteration. The first is the index, 
+and the second is a copy of the element at that index.
 */
 
 package main
@@ -7,9 +10,9 @@ package main
 import "fmt"
 
 func main() {
-	// iterate over an array
-	str_arr := []string{"a", "b", "c"}
-	for index, value := range str_arr {
+	// iterate over a slice
+	letters := []string{"a", "b", "c"}
+	for index, value := range letters {
 		fmt.Println("index:", index, "value:", value)
 	}
 
@@ -19,7 +22,7 @@ func main() {
 		fmt.Println("key:", key, "value:", value)
 	}
 
-	// just iterate over the keys
+	// iterate over map (keys only)
 	for key := range vertices {
 		fmt.Println("key:", key)
 	}	

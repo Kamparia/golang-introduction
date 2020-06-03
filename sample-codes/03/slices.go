@@ -1,6 +1,10 @@
 /*
-Slices: are similar to arrays, but with Slices we can make use of the append function.
+Slices:
+An array has a fixed size. A slice, on the other hand, is a 
+dynamically-sized, flexible view into the elements of an array. 
+In practice, slices are much more common than arrays.
 */
+
 package main
 
 import "fmt"

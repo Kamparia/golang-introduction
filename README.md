@@ -1,8 +1,9 @@
-# Getting Started with Golang.
+# Getting Started with Go.
 Introduction to developing Web Applications &amp; Services using Go Programming Language
 
-### What is Golang?
+### What is Go?
+Go, or Golang, is an open source programming language that makes it easy to build simple, reliable, and efficient software. 
 
-### Applications of Golang
+### Applications of Go
 
-### Popular Golang projects
+### Popular Go projects
