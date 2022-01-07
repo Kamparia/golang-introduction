@@ -1,0 +1,6 @@
+2022/01/07 21:55:17 Logging to a file in Go!
+2022/01/07 21:55:50 Logging to a file in Go!
+{"level":"warning","msg":"The group's number increased tremendously!","number":122,"omg":true,"time":"2022-01-07T22:40:28+01:00"}
+{"level":"fatal","msg":"The ice breaks!","number":100,"omg":true,"time":"2022-01-07T22:40:28+01:00"}
+{"level":"warning","msg":"The group's number increased tremendously!","number":122,"omg":true,"time":"2022-01-07T22:41:16+01:00"}
+{"level":"fatal","msg":"The ice breaks!","number":100,"omg":true,"time":"2022-01-07T22:41:16+01:00"}

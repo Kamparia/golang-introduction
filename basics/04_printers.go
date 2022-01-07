@@ -19,9 +19,10 @@ func main() {
 	// Also, Println always adds a newline to the output.
 	fmt.Println("The vector (", a, b, ") has length", h, ".")
 
+	// Formatted output
 	// Printf provides complete control but is more complex to use.
 	// It does not add a newline to the output, so we add one explicitly
 	// at the end of the format specifier string.
 	fmt.Printf("The vector (%g %g) has length %g.\n", a, b, h)
-
+	fmt.Printf("The vector (%g %g) has length %g.\n", a, b, h)
 }

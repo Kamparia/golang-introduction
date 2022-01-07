@@ -17,7 +17,7 @@ func current_time() {
 	now := time.Now()      // current local time
 	sec := now.Unix()      // number of seconds since January 1, 1970 UTC
 	nsec := now.UnixNano() // number of nanoseconds since January 1, 1970 UTC
-	
+
 	fmt.Println(now)
 	fmt.Println(sec)
 	fmt.Println(nsec)
@@ -29,7 +29,7 @@ func date_diff() {
 	t1 := Date(2000, 1, 1)
 	t2 := Date(2001, 1, 1)
 	days := t2.Sub(t1).Hours() / 24
-	fmt.Println("Start Date:", t1, "End Date:", t2, "Days Diff:", days)
+	fmt.Println("Start Date:", t1, "\nEnd Date:", t2, "\nDays Diff:", days)
 }
 
 // number of days in a month

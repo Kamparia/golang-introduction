@@ -6,8 +6,8 @@ Unlike other languages, Go does not have Exceptions instead error are used.
 package main
 
 import (
-	"fmt"
 	"errors"
+	"fmt"
 	"math"
 )
 
